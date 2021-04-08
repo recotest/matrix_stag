@@ -1,0 +1,10 @@
+#  run req.txt
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+#  create venv
+python -m venv venv
+
+#  activate venv
+venv\Scripts\activate.bat

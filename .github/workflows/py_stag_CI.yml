@@ -29,7 +29,7 @@ jobs:
     - name: Set password
       id: step_three
       run: |
-          echo "TSTXBN_P=@5Giggles" >> $GITHUB_ENV
+          echo "TSTXBN_P=${{secrets.TSTXBN_P}}" >> $GITHUB_ENV
     - name: Test with pytest
       run: |
         pip install pytest

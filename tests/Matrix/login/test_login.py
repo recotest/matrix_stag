@@ -1,7 +1,7 @@
 from decouple import config
 
-lgn = config("TSTYBI_L")
-pwd = config("TSTYBI_P")
+lgn = 'TSTXBN'
+pwd = config("TSTXBN_P")
 
 
 def test_login_as_tstybi(app):

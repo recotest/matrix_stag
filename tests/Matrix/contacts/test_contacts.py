@@ -1,8 +1,8 @@
 import pytest
 from decouple import config
 
-lgn = config("TSTYBI_L")
-pwd = config("TSTYBI_P")
+lgn = 'TSTXBN'
+pwd = config("TSTXBN_P")
 
 
 @pytest.mark.create_contact

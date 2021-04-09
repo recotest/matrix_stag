@@ -3,7 +3,7 @@ import pytest
 from decouple import config
 
 
-LGN = config("TSTXBN_L")
+LGN = 'TSTXBN'
 PWD = config("TSTXBN_P")
 
 @pytest.mark.filterwarnings('ignore::PytestUnknownMarkWarning')

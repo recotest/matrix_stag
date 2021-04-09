@@ -27,5 +27,6 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+        SET TSTXBN_P=@5Giggles
         pytest -v -s -m rr_comp
 
